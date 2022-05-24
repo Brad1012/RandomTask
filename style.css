@@ -1,22 +1,53 @@
+@font-face {
+  font-family: 'Windlass';
+  src: url('fonts/Windlass.eot');
+  src: url('fonts/Windlass.eot?#iefix') format('embedded-opentype'),
+      url('fonts/Windlass.woff2') format('woff2'),
+      url('fonts/Windlass.woff') format('woff'),
+      url('fonts/Windlass.svg#Windlass') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 
 html, body {
-    width: 100%;
-  }
-  
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0%;
-      height: 100vh;
-     background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
-      text-align: center;
-      color: #678667;
-      font-family: 'Rubik', sans-serif;
-      font-size: 1rem;
-  }
-  
-  .header {
-    height: 400px;
-  }
+  width: 100%;
+}
+
+  body {
+    justify-content: center;
+    margin: 0%;
+    height: 100vh;
+   background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
+    text-align: center;
+    color: #678667;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+
+.header {
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.header-title {
+  font-family: 'Windlass';
+  font-size: 5rem;
+}
+.header-desc {
+  font-family: 'windlass';
+  font-size: 2rem;
+  ;
+}
+
+.main {
+  background-color: #d4c8ad;
+  height: 70%;
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
