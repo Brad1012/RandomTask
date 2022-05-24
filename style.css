@@ -1,0 +1,22 @@
+
+
+html, body {
+    width: 100%;
+  }
+  
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0%;
+      height: 100vh;
+     background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
+      text-align: center;
+      color: #678667;
+      font-family: 'Rubik', sans-serif;
+      font-size: 1rem;
+  }
+  
+  .header {
+    height: 400px;
+  }
