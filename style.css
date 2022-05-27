@@ -10,8 +10,6 @@
   font-display: swap;
 }
 
-
-
 html, body {
   width: 100%;
 }
@@ -37,6 +35,7 @@ html, body {
   font-family: 'Windlass';
   font-size: 5rem;
 }
+
 .header-desc {
   font-family: 'windlass';
   font-size: 2rem;
@@ -68,6 +67,4 @@ html, body {
   color: #d4c8ad;
   transform: scale(1.5);
   transition: 0.5s;
-
 }
-
