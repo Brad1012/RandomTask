@@ -10,6 +10,8 @@
   font-display: swap;
 }
 
+
+
 html, body {
   width: 100%;
 }
@@ -22,7 +24,7 @@ html, body {
     text-align: center;
     color: #678667;
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .header {
@@ -35,7 +37,6 @@ html, body {
   font-family: 'Windlass';
   font-size: 5rem;
 }
-
 .header-desc {
   font-family: 'windlass';
   font-size: 2rem;
@@ -48,7 +49,7 @@ html, body {
   width: 80%;
   margin: auto;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .generate {
@@ -67,4 +68,14 @@ html, body {
   color: #d4c8ad;
   transform: scale(1.5);
   transition: 0.5s;
+
+}
+
+#task-text {
+  text-align:center;
+  padding: 30px;
+}
+
+.task {
+  height: 300px;
 }
