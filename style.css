@@ -53,9 +53,10 @@ html, body {
   border-radius: 15px;
 }
 
-/*crew-type {
-  display:;
-}*/
+.crew-type {
+  height: 100px;
+  padding-top: 20px;
+}
 
 .filters {
   padding-top: 50px;
