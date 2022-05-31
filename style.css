@@ -2,15 +2,13 @@
   font-family: 'Windlass';
   src: url('fonts/Windlass.eot');
   src: url('fonts/Windlass.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Windlass.woff2') format('woff2'),
-      url('fonts/Windlass.woff') format('woff'),
-      url('fonts/Windlass.svg#Windlass') format('svg');
+       url('fonts/Windlass.woff2') format('woff2'),
+       url('fonts/Windlass.woff') format('woff'),
+       url('fonts/Windlass.svg#Windlass') format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
-
-
 
 html, body {
   width: 100%;
@@ -25,12 +23,15 @@ html, body {
     color: #678667;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
+     overflow: hidden;
+     width: 100%;
 }
 
 .header {
-  height: 200px;
+  min-height: 200px;
   width: 100%;
   margin-top: 50px;
+  padding: 5px;
 }
 
 .header-title {
@@ -50,6 +51,16 @@ html, body {
   margin: auto;
   border: 2px solid black;
   border-radius: 15px;
+}
+
+/*crew-type {
+  display:;
+}*/
+
+.filters {
+  padding-top: 50px;
+  height: 25px;
+  width: 25px;
 }
 
 .generate {
@@ -74,6 +85,7 @@ html, body {
 #task-text {
   text-align:center;
   padding: 30px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .task {
