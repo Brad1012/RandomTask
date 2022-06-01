@@ -106,12 +106,12 @@ input[type="radio"]{
 
 #option-1:checked:checked ~ .option-1,
 #option-2:checked:checked ~ .option-2{
-  border-color: #678667;
+  border-color: black;
   background: #678667;
 }
 #option-1:checked:checked ~ .option-1 .dot,
 #option-2:checked:checked ~ .option-2 .dot{
-  background: #fff;
+  background: #d4c8ad;
 }
 #option-1:checked:checked ~ .option-1 .dot::before,
 #option-2:checked:checked ~ .option-2 .dot::before{
@@ -124,29 +124,28 @@ input[type="radio"]{
 }
 #option-1:checked:checked ~ .option-1 span,
 #option-2:checked:checked ~ .option-2 span{
-  color: #fff;
+  color: #d4c8ad;
 }
-
-
 
 .crew-type {
   font-size: 1.5rem;
 }
 
 .generate {
-  background: #0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) 
-  repeat-y;
+  background: #d4c8ad;
   font-family: 'Rubik';
   font-size: 15px;
   color: #678667;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
-  border-radius: 8px;
+  border-radius: 5px;
   margin-top: 50px;
 }
 
 .generate:hover {
+  background: #0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) 
+  repeat-y;
   color: #d4c8ad;
   transform: scale(1.5);
   transition: 0.5s;
