@@ -53,27 +53,97 @@ html, body {
   border-radius: 15px;
 }
 
-.crew-type {
-  height: 100px;
-  padding-top: 20px;
+.wrapper {
+  display: inline-flex;
+  height: 50px;
+  width: 400px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 20px 15px;
 }
 
-.filters {
-  padding-top: 50px;
-  height: 25px;
-  width: 25px;
+.wrapper .option{
+  background: #d4c8ad;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid #678667;
+  transition: all 0.3s ease;
+}
+
+.wrapper .option .dot{
+  height: 20px;
+  width: 20px;
+  background: #678667;
+  border-radius: 50%;
+  position: relative;
+}
+
+.wrapper .option .dot::before{
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #678667;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+#option-1:checked:checked ~ .option-1,
+#option-2:checked:checked ~ .option-2{
+  border-color: #678667;
+  background: #678667;
+}
+#option-1:checked:checked ~ .option-1 .dot,
+#option-2:checked:checked ~ .option-2 .dot{
+  background: #fff;
+}
+#option-1:checked:checked ~ .option-1 .dot::before,
+#option-2:checked:checked ~ .option-2 .dot::before{
+  opacity: 1;
+  transform: scale(1);
+}
+.wrapper .option span{
+  font-size: 15px;
+  color: #678667;
+}
+#option-1:checked:checked ~ .option-1 span,
+#option-2:checked:checked ~ .option-2 span{
+  color: #fff;
+}
+
+
+
+.crew-type {
+  font-size: 1.5rem;
 }
 
 .generate {
-  background: #0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
+  background: #0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) 
+  repeat-y;
   font-family: 'Rubik';
   font-size: 15px;
   color: #678667;
-  margin-top: 50px;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 8px;
+  margin-top: 50px;
 }
 
 .generate:hover {
