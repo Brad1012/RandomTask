@@ -21,11 +21,20 @@ Sea of Thieves
     </div>
     <div class="main">
 <div class="crew-type">
-  Crew Type
-<input class="filters" type="radio" name="crew" id="Individual"/>
-  <label for="individual">Individual</label>
-  <input class="filters" type="radio" name="crew" id="Full Crew"/>
-  <label for="Full Crew">Full Crew</label>
+   <h2>Crew Type</h2>
+  
+  <div class="wrapper">
+ <input type="radio" name="select" id="option-1" checked>
+ <input type="radio" name="select" id="option-2">
+   <label for="option-1" class="option option-1">
+     <div class="dot"></div>
+      <span>Individual</span>
+      </label>
+   <label for="option-2" class="option option-2">
+     <div class="dot"></div>
+      <span>Full Crew</span>
+   </label>
+ </div>
 </div>  
       
 <input class="generate" type="button" value="Search" onclick="GetValue();" />
