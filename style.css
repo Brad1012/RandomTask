@@ -38,6 +38,7 @@ html, body {
   font-family: 'Windlass';
   font-size: 5rem;
 }
+
 .header-desc {
   font-family: 'windlass';
   font-size: 2rem;
@@ -161,3 +162,27 @@ input[type="radio"]{
 .task {
   height: 300px;
 }
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    height: 40px;
+    width: 300px;
+  }
+  
+  #task-text {
+    font-size: 1.5rem;
+  }
+
+  .generate:hover {
+    transform: scale(1);
+    transition: 0s;
+   }
+
+  .header-title {
+    font-size: 4rem;
+  }
+  
+  .header-desc {
+  font-size: 2rem;
+    }
+  }
