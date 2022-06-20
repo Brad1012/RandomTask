@@ -135,7 +135,7 @@ input[type="radio"]{
 .generate {
   background: #d4c8ad;
   font-family: 'Rubik';
-  font-size: 15px;
+  font-size: 1rem;
   color: #678667;
   padding: 15px;
   padding-left: 30px;
