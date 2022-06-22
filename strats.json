@@ -32,8 +32,7 @@
 
    {"desc": "Outfit change, go to the clothing chest and press randomise."
    }
-],
-
+    ],
 
 "easy-long":  [
    {"desc": "Do a voyage."
@@ -46,25 +45,34 @@
 
 "hard-long" : [
 
-],
+]},
 
-"crew-easy-short" : [
 
-],
+"crew" : {
 
-"crew-easy-long" : [
-
-],
-
-"crew-hard-short" : [
+"easy-short" : [
 
 ],
 
-"crew-hard-long" : [
+"easy-long" : [
 
 ],
+
+"hard-short" : [
+
+],
+
+"hard-long" : [
+
+]},
+
 
 "extreme" : [
 
-]}
+  ]
+
+
+
 }
+ 
+
