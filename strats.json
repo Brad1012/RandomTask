@@ -1,5 +1,7 @@
 {
-"solo-easy-short" : [ 
+"solo": {
+    
+    "easy-short" : [ 
 
    { "desc": "You can only walk side to side for 30 seconds, like a crab!"
    },
@@ -33,16 +35,16 @@
 ],
 
 
-"solo-easy-long" : [
+"easy-long":  [
    {"desc": "Do a voyage."
    }
 ],
 
-"solo-hard-short" : [
+"hard-short" : [
 
 ],
 
-"solo-hard-long" : [
+"hard-long" : [
 
 ],
 
@@ -64,8 +66,5 @@
 
 "extreme" : [
 
-]
-
 ]}
-
 }
