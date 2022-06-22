@@ -1,4 +1,5 @@
-data = `{
+{
+"data" : [ 
 
    { "desc": "You can only walk side to side for 30 seconds, like a crab!"
    },
@@ -28,11 +29,11 @@ data = `{
    },
 
    {"desc": "Outfit change, go to the clothing chest and press randomise."
-   },
+   }
 
 
 
-
+]}
 
 
 
