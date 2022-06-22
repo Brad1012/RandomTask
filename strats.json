@@ -1,5 +1,5 @@
 {
-"data" : [ 
+"solo-easy-short" : [ 
 
    { "desc": "You can only walk side to side for 30 seconds, like a crab!"
    },
@@ -28,14 +28,44 @@
    { "desc": "Time out!, Sit on the steps of the nearest ship for 20 seconds."
    },
 
-   { "desc": "Outfit change, go to the clothing chest and press randomise."
+   {"desc": "Outfit change, go to the clothing chest and press randomise."
    }
+],
 
 
+"solo-easy-long" : [
+   {"desc": "Do a voyage."
+   }
+],
+
+"solo-hard-short" : [
+
+],
+
+"solo-hard-long" : [
+
+],
+
+"crew-easy-short" : [
+
+],
+
+"crew-easy-long" : [
+
+],
+
+"crew-hard-short" : [
+
+],
+
+"crew-hard-long" : [
+
+],
+
+"extreme" : [
+
+]
 
 ]}
-
-
-
 
 }
