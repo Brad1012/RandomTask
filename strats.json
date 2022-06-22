@@ -1,1 +1,40 @@
+data = `{
 
+   { "desc": "You can only walk side to side for 30 seconds, like a crab!"
+   },
+
+   { "desc": "Take a nap on your/someones boat for 10 seconds. You've earn't it."
+   },
+
+   { "desc": "You've had a long day, reward yourself and down a nice grog!"
+   },
+
+   { "desc": "Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."
+   },
+
+   { "desc": "Sword Lord! You can only move by using sword hops for 30 seconds."
+   },
+
+   { "desc": "Is that a ship? Climb the crows nest of the nearest ship and ring the bell."
+   },
+
+   { "desc": "Make a nice drawing on the map."
+   },
+
+   { "desc": "Halt! Drop the anchor!"
+   },
+
+   { "desc": "Time out!, Sit on the steps of the nearest ship for 20 seconds."
+   },
+
+   {"desc": "Outfit change, go to the clothing chest and press randomise."
+   },
+
+
+
+
+
+
+
+
+}
