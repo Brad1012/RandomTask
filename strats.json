@@ -12,9 +12,6 @@
    { "desc": "You've had a long day, reward yourself and down a nice grog!"
    },
 
-   { "desc": "Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."
-   },
-
    { "desc": "Sword Lord! You can only move by using sword hops for 30 seconds."
    },
 
@@ -30,20 +27,26 @@
    { "desc": "Time out!, Sit on the steps of the nearest ship for 20 seconds."
    },
 
-   {"desc": "Outfit change, go to the clothing chest and press randomise."
+   { "desc": "Outfit change, go to the clothing chest and press randomise."
    }
-    ],
+],
 
 "easy-long":  [
    {"desc": "Do a voyage."
+   },
+
+   {"desc": "Dam Spaniards are piping up again! Go clear a Sea Fort."
    }
 ],
 
 "hard-short" : [
 
+    { "desc": "Throw some vomit on an enemy player!"
+    }
 ],
 
 "hard-long" : [
+    
 
 ]},
 
@@ -60,19 +63,27 @@
 
 "hard-short" : [
 
+   { "desc": "Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."
+   }
 ],
 
 "hard-long" : [
-
+  { "desc": "Complete the current/next world event."}
+  
 ]},
 
 
 "extreme" : [
+  { "desc": "Sink an enemy ship with gunpowder barrels"
+  },
 
+  { "desc": "Frag montage time, kill a pirate with a 360 EoR shot!"
+  }
   ]
 
 
 
 }
  
+
 
