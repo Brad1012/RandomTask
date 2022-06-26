@@ -1,55 +1,45 @@
 {
 "solo": {
-    
-    "easy-short" : [ 
+  "easy": {
+    "short":{
+      "desc":[
+   "You can only walk side to side for 30 seconds, like a crab!",
 
-   { "desc": "You can only walk side to side for 30 seconds, like a crab!"
-   },
+   "Take a nap on your/someones boat for 10 seconds. You've earn't it.",
 
-   { "desc": "Take a nap on your/someones boat for 10 seconds. You've earn't it."
-   },
+   "You've had a long day, reward yourself and down a nice grog!",
+   
+   "Sword Lord! You can only move by using sword hops for 30 seconds.",
+   
+   "Is that a ship? Climb the crows nest of the nearest ship and ring the bell.",
 
-   { "desc": "You've had a long day, reward yourself and down a nice grog!"
-   },
+   "Make a nice drawing on the map.",
+   
+   "Halt! Drop the anchor!",
 
-   { "desc": "Sword Lord! You can only move by using sword hops for 30 seconds."
-   },
+   "Time out!, Sit on the steps of the nearest ship for 20 seconds.",
 
-   { "desc": "Is that a ship? Climb the crows nest of the nearest ship and ring the bell."
-   },
-
-   { "desc": "Make a nice drawing on the map."
-   },
-
-   { "desc": "Halt! Drop the anchor!"
-   },
-
-   { "desc": "Time out!, Sit on the steps of the nearest ship for 20 seconds."
-   },
-
-   { "desc": "Outfit change, go to the clothing chest and press randomise."
-   }
-],
-
-"easy-long":  [
-   {"desc": "Do a voyage."
-   },
-
-   {"desc": "Dam Spaniards are piping up again! Go clear a Sea Fort."
-   }
-],
+   "Outfit change, go to the clothing chest and press randomise."
+   ]},
+ 
+   "easy":  {
+      "long": {
+        "desc":[
+      "Do a voyage.",
+      "Dam Spaniards are piping up again! Go clear a Sea Fort."
+   
+]}},
 
 "hard-short" : [
 
-    { "desc": "Throw some vomit on an enemy player!"
-    }
+   { "desc": "Throw some vomit on an enemy player!"
+   }
 ],
 
 "hard-long" : [
     
 
-]},
-
+],
 
 "crew" : {
 
@@ -68,22 +58,22 @@
 ],
 
 "hard-long" : [
-  { "desc": "Complete the current/next world event."}
+   { "desc": "Complete the current/next world event."
+   }
   
 ]},
 
 
 "extreme" : [
-  { "desc": "Sink an enemy ship with gunpowder barrels"
-  },
+   { "desc": "Sink an enemy ship with gunpowder barrels"
+   },
 
-  { "desc": "Frag montage time, kill a pirate with a 360 EoR shot!"
+   { "desc": "Frag montage time, kill a pirate with a 360 EoR shot!"
+   }
+]
+    } 
   }
-  ]
-
-
-
 }
- 
 
+ 
 
