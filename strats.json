@@ -21,34 +21,27 @@
 
    "Outfit change, go to the clothing chest and press randomise."
    ]},
- 
       "long": {
         "desc":[
       "Do a voyage.",
       "Dam Spaniards are piping up again! Go clear a Sea Fort."
-   
 ]}},
 
    "hard": {
      "short": {
       "desc":[ "Throw some vomit on an enemy player!"
      ]},
-
      "long": [
-    
-
 ]}},
   
 "crew" : {
    "easy" : {
       "short": {
          "desc":[
-         ]
-   },
+      ]},
 
 "long" : {
    "desc":[
-
 ]}},
 
 "hard" : {
@@ -58,9 +51,7 @@
 ]},
 
    "long" : [
-   { "desc": "Complete the current/next world event."
-   }
-  
+   "desc": "Complete the current/next world event."
 ]}},
 
 "extreme" : {
