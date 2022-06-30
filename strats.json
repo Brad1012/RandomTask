@@ -22,7 +22,6 @@
    "Outfit change, go to the clothing chest and press randomise."
    ]},
  
-   "easy":  {
       "long": {
         "desc":[
       "Do a voyage.",
@@ -30,14 +29,48 @@
    
 ]}},
 
-"hard-short" : [
+   "hard": {
+     "short": {
+      "desc":[ "Throw some vomit on an enemy player!"
+     ]},
 
-   { "desc": "Throw some vomit on an enemy player!"
-   }
-],
-
-"hard-long" : [
+     "long": [
     
+
+]},
+  
+"crew" : {
+   "easy" : {
+      "short": {
+         "desc":[
+         ]
+   },
+
+"easy-long" : [
+
+]},
+
+"hard" : {
+   "short": {
+    "desc": ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."
+   
+]},
+
+   "long" : [
+   { "desc": "Complete the current/next world event."
+   }
+  
+]}},
+
+"extreme" : [
+   { "desc": "Sink an enemy ship with gunpowder barrels"
+   },
+
+   { "desc": "Frag montage time, kill a pirate with a 360 EoR shot!"
+   }
+]
+    } 
+   }
 
 ],
 
