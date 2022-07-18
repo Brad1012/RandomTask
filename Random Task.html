@@ -34,16 +34,20 @@ Sea of Thieves
      <div class="dot"></div>
       <span>Crew</span>
    </label>
+  </div>
  </div>
- <div class="selection">
-  <input type="checkbox" id="length" name="short" checked>
-  <label for="short">Short</label> 
-  
-  <input type="checkbox" id="length" name="long" checked>
-  <label for="long">Long</label> 
-
+ 
+  <div class="selection">
+ <input type="checkbox" id="length" name="short" checked>
+ <input type="checkbox" id="length" name="long" checked>
+   <label for="short" class="checkbox short">
+    <div class="dot"></div>
+    <span>Short</span></label> 
+  <label for="long" class="checkbox long">
+    <span>Long</span>
+  </label> 
  </div>
-</div>  
+ 
       
 <input class="generate" type="button" value="Search" onclick="GetValue();" />
 
