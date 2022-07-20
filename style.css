@@ -17,13 +17,11 @@ html, body {
   body {
     justify-content: center;
     margin: 0%;
-    height: 100vh;
    background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
     text-align: center;
     color: #678667;
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
-     overflow: hidden;
      width: 100%;
 }
 
@@ -46,11 +44,11 @@ html, body {
 
 .main {
   background-color: #d4c8ad;
-  height: 70%;
   width: 80%;
   margin: auto;
   border: 2px solid black;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 h1 {
@@ -137,45 +135,6 @@ input[type="radio"]{
   color: #d4c8ad;
 }
 
-
-
-input[type="checkbox"]{
-  display: none;
-}
-
-#short:checked:checked ~ .short,
-#long:checked:checked ~ .long{
-  border-color: black;
-  background: #678667;
-}
-#short:checked:checked ~ .option-1 .dot,
-#long:checked:checked ~ .option-2 .dot{
-  background: #d4c8ad;
-}
-#short:checked:checked ~ .option-1 .dot::before,
-#long:checked:checked ~ .option-2 .dot::before{
-  opacity: 1;
-  transform: scale(1);
-}
-.selection .option span{
-  font-size: 15px;
-  color: #678667;
-}
-#option-1:checked:checked ~ .option-1 span,
-#option-2:checked:checked ~ .option-2 span{
-  color: #d4c8ad;
-}
-
-.selection {
-  display: inline-flex;
-  height: 50px;
-  width: 400px;
-  align-items: center;
-  justify-content: space-evenly;
-  border-radius: 5px;
-  padding: 20px 15px;
-}
-
 .crew-type h2 {
   font-size: 2.5rem;
 }
@@ -242,6 +201,6 @@ input[type="checkbox"]{
 
 @media screen and (max-height: 1200px) {
   .main {
-   height: 60%
+   height: 70%
   }
 }
