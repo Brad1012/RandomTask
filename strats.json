@@ -60,10 +60,11 @@
          ]
       }
    },
-   "extreme":{
+   "pvp":{
       "desc":[
          "Sink an enemy ship with gunpowder barrels",
-         "Frag montage time, kill a pirate with a 360 EoR shot!"
+         "Frag montage time, kill a pirate with a 360 EoR shot!",
+         "Down a grog on an enemy ship!"
       ]
    }
 }
