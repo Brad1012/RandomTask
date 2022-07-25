@@ -14,15 +14,16 @@ html, body {
   width: 100%;
 }
 
-  body {
-    justify-content: center;
-    margin: 0%;
-   background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
-    text-align: center;
-    color: #678667;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
-     width: 100%;
+body {
+  justify-content: center;
+  margin: 0%;
+  background:#0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) repeat-y;
+  text-align: center;
+  color: #678667;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .header {
@@ -137,6 +138,19 @@ input[type="radio"]{
 
 .crew-type h2 {
   font-size: 2.5rem;
+}
+
+#shortEasy {
+  display: none;
+}
+
+input[name=type]:checked + label>img {
+  border: 1px solid #ff4b59;
+  box-shadow: 0 0 10px 5px #ff4b59;
+}
+
+input[name=type] {
+  cursor:pointer;
 }
 
 .generate {
