@@ -212,10 +212,8 @@ input[name=type] {
 }
 
 .generate:hover {
-  background: #0b1e24 linear-gradient(to right, #010d0b 0%, #0b1e24 25%, #0b1e24 75%, #010d0b 100%) 
-  repeat-y;
+  background:#678667;
   color: #d4c8ad;
-  transform: scale(1.5);
   transition: 0.5s;
 
 }
@@ -228,6 +226,17 @@ input[name=type] {
 
 .task {
   height: 300px;
+}
+
+header {
+  height: 1.5rem;
+  font-size: 1rem;
+  background-color: #d4c8ad;
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {
