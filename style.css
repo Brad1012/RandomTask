@@ -109,6 +109,7 @@ h1 {
 
 input[type="radio"]{
   display: none;
+  margin: 5px;
 }
 
 #option-1:checked:checked ~ .option-1,
@@ -139,16 +140,59 @@ input[type="radio"]{
 }
 
 .parameters {
-  margin: 15px;
+  display: inline;
+  height: 50px;
+  width: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 20px 15px;
 }
 
+.parameters .option{
+  background: #d4c8ad;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid #678667;
+  transition: all 0.3s ease;
+}
+
+.parameters .option .dot::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #678667;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.3s ea
+}
+
+.parameters .option span {
+  font-size: 15px;
+  color: #678667;
+}
+
+
 input[name=type]:checked + label>img {
-  border: 1px solid #ff4b59;
-  box-shadow: 0 0 10px 5px #ff4b59;
+  border: 1px solid #678667;
+  box-shadow: 0 0 10px 5px #678667;
 }
 
 input[name=type] {
   cursor:pointer;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .generate {
