@@ -140,7 +140,7 @@ input[type="radio"]{
 }
 
 .parameters {
-  display: inline;
+  display: inline-flex;
   height: 50px;
   width: auto;
   align-items: center;
@@ -149,7 +149,7 @@ input[type="radio"]{
   padding: 20px 15px;
 }
 
-.parameters .option{
+.parameters .choice{
   background: #d4c8ad;
   height: 100%;
   width: 100%;
@@ -164,24 +164,28 @@ input[type="radio"]{
   transition: all 0.3s ease;
 }
 
-.parameters .option .dot::before {
-  position: absolute;
-  content: "";
-  top: 4px;
-  left: 4px;
-  width: 12px;
-  height: 12px;
+
+#choice-1:checked:checked ~ .choice-1,
+#choice-2:checked:checked ~ .choice-2,
+#choice-3:checked:checked ~ .choice-3,
+#choice-4:checked:checked ~ .choice-4,
+#choice-5:checked:checked ~ .choice-5{
+  border-color: black;
   background: #678667;
-  border-radius: 50%;
-  opacity: 0;
-  transform: scale(1.5);
-  transition: all 0.3s ea
 }
 
-.parameters .option span {
+.parameters .choice span {
   font-size: 15px;
   color: #678667;
 }
+#choice-1:checked:checked ~ .choice-1 span,
+#choice-2:checked:checked ~ .choice-2 span,
+#choice-3:checked:checked ~ .choice-3 span,
+#choice-4:checked:checked ~ .choice-4 span,
+#choice-5:checked:checked ~ .choice-5 span{
+  color: #d4c8ad;
+}
+
 
 
 input[name=type]:checked + label>img {
