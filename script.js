@@ -1,28 +1,53 @@
-
-function GetValue()
-{
-    var myarray= new Array(
-    "You can only walk side to side for 30 seconds, like a crab!",
-    "Put a piece of loot onto another players ship.",
-    "Take a nap on your/someones boat for 10 seconds. You've earn't it.",
-    "Double gun time! Use a Pistol and Eye of Reach until next you die.",
-    "Dam Spaniards are piping up again! Go clear a Sea Fort.",
-    "You've had a long day, reward yourself and down a nice grog!",
-    "Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea.",
-    "Sword Lord! You can only move by using sword hops for 30 seconds.",
-    "Frag montage time, kill a pirate with a 360 EoR shot!",
-    "You can only move by using sword hops for 30 seconds.",
-    );
-    
-    /*
-    Hard - Easy - PVP - Long - Individual/Crew Based - 
-    "Put a piece of loot onto another players ship.",
-    "Frag montage time, kill a pirate with a 360 EoR shot!",
-    "Double gun time! Use a Pistol and Eye of Reach until next you die.",
-    "Dam Spaniards are piping up again! Go clear a Sea Fort.",
-    "Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea.",
-    "Ring the crows nest bell on another players ship!"
-    */
-    var random = myarray[Math.floor(Math.random() * myarray.length)];
-   document.getElementById("task-text").innerHTML=random;
-}
+function GetValue() {
+    var parameter = document.querySelector('input[name="type"]:checked').value;
+    var crewSize = document.querySelector('input[name="select"]:checked').value;
+    if (parameter === "shortEasy")
+      shortEasy(crewSize);
+    else if (parameter === "shortLong")
+      shortLong(crewSize);
+    else if (parameter === "longEasy")
+      longEasy(crewSize);
+    else if (parameter === "longHard")
+      longHard(crewSize);
+    else
+      PVP(crewSize);
+  }
+  
+  function shortEasy(crewSize) {
+    shortEasySolo = [
+      ["You can only walk side to side for 30 seconds, like a crab!"],
+      ["Take a nap on your/someones boat for 10 seconds. You've earned it."],
+      ["You've had a long day, reward yourself and down a nice grog!"],
+      ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
+      ["Sword Lord! You can only move by using sword hops for 30 seconds."],
+      ["Is that a ship? Climb the crows nest of the nearest ship and ring the bell."],
+      ["Make a nice drawing on the map."],
+      ["Halt! Drop the anchor!"],
+      ["Time out!, Sit on the steps of the nearest ship for 20 seconds."],
+      ["Outfit change, go to the clothing chest and press randomise."]]
+  
+    shortEasyCrew = [
+      ["You can only walk side to side for 30 seconds, like a crab!"],
+      ["Take a nap on your/someones boat for 10 seconds. You've earned it."],
+      ["You've had a long day, reward yourself and down a nice grog!"],
+      ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
+      ["Sword Lord! You can only move by using sword hops for 30 seconds."],
+      ["Is that a ship? Climb the crows nest of the nearest ship and ring the bell."],
+      ["Make a nice drawing on the map."],
+      ["Halt! Drop the anchor!"],
+      ["Time out!, Sit on the steps of the nearest ship for 20 seconds."],
+      ["Outfit change, go to the clothing chest and press randomise."]
+    ]
+  
+  if (crewSize === "option-1") {
+    var choice = Math.floor(Math.random() * shortEasySolo.length);
+    document.getElementById("task-text").innerHTML = shortEasySolo[choice][0];
+  }
+  else {
+    var choice = Math.floor(Math.random() * shortEasyCrew.length);
+    document.getElementById("task-text").innerHTML = shortEasyCrew[choice][0];
+  }
+  document.getElementById('tesk-text').scrollIntoView()
+  }
+  
+  
