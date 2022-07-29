@@ -9,9 +9,10 @@
     <title>Sea of Thieves Random Task</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+  
 <body>
-  <header>
-    Got a suggestion for a task? Message me on twitter <a href="https://twitter.com/BradBeardDev" target="_blank">Here</a>
+  <header>Have a suggestion for a task? Message me on Twitter <a href="https://twitter.com/BradBeardDev" target="_blank">
+    Here!</a>
   </header>
     <div class="header">
       <div class="header-title">
@@ -29,8 +30,8 @@ Sea of Thieves
    <h2>Task Size</h2>
   
   <div class="wrapper">
- <input type="radio" name="select" id="option-1" checked>
- <input type="radio" name="select" id="option-2">
+ <input type="radio" name="select" id="option-1" value="option-1" checked>
+ <input type="radio" name="select" id="option-2" value="option-2">
    <label for="option-1" class="option option-1">
      <div class="dot"></div>
       <span>Solo</span>
@@ -69,9 +70,13 @@ Sea of Thieves
 
 
 <input class="generate" type="button" value="Search" onclick="GetValue();" />
+
     <p id="task-text">
     </p>
-    </div> 
+
+    </div>
+    </div>
+  </div>  
 </body>
 <script src="./script.js"></script>
 <script src="./strats.json"></script>
