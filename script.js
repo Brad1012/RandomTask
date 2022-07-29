@@ -3,8 +3,8 @@ function GetValue() {
     var crewSize = document.querySelector('input[name="select"]:checked').value;
     if (parameter === "shortEasy")
       shortEasy(crewSize);
-    else if (parameter === "shortLong")
-      shortLong(crewSize);
+    else if (parameter === "shortHard")
+      shortHard(crewSize);
     else if (parameter === "longEasy")
       longEasy(crewSize);
     else if (parameter === "longHard")
@@ -15,6 +15,7 @@ function GetValue() {
   
   function shortEasy(crewSize) {
     shortEasySolo = [
+      ["shortEasySolo"],
       ["You can only walk side to side for 30 seconds, like a crab!"],
       ["Take a nap on your/someones boat for 10 seconds. You've earned it."],
       ["You've had a long day, reward yourself and down a nice grog!"],
@@ -27,6 +28,7 @@ function GetValue() {
       ["Outfit change, go to the clothing chest and press randomise."]]
   
     shortEasyCrew = [
+      ["shortEasyCrew"],
       ["You can only walk side to side for 30 seconds, like a crab!"],
       ["Take a nap on your/someones boat for 10 seconds. You've earned it."],
       ["You've had a long day, reward yourself and down a nice grog!"],
@@ -49,5 +51,89 @@ function GetValue() {
   }
   document.getElementById('tesk-text').scrollIntoView()
   }
+  
+  
+  function shortHard(crewSize) {
+    shortHardSolo = [
+      ["shortHardSolo"],
+      ["shortHardSolo test"]]
+  
+    shortHardCrew = [
+      ["shortHardCrew"],
+      ["shortHardCrew test"]]
+  
+    if(crewSize === "option-1") {
+      var choice = Math.floor(Math.random() * shortHardSolo.length);
+    document.getElementById("task-text").innerHTML = shortHardSolo[choice][0];
+      }
+      else{
+          var choice = Math.floor(Math.random() * shortHardCrew.length);
+          document.getElementById("task-text").innerHTML = shortHardCrew[choice][0];
+      }
+      document.getElementById('task-text').scrollIntoView()     
+    }
+  
+  function longEasy(crewSize) {
+    longEasySolo = [
+      ["longEasysolo"],
+      ["longEasySolo test"]]
+  
+    longEasyCrew = [
+      ["longEasyCrew"],
+      ["longEasyCrew test"]]
+  
+    if(crewSize === "option-1") {
+      var choice = Math.floor(Math.random() * longEasySolo.length);
+    document.getElementById("task-text").innerHTML = longEasySolo[choice][0];
+      }
+      else{
+          var choice = Math.floor(Math.random() * longEasyCrew.length);
+          document.getElementById("task-text").innerHTML = longEasyCrew[choice][0];
+      }
+      document.getElementById('task-text').scrollIntoView()     
+    }
+  
+  function longHard(crewSize) {
+    longHardSolo = [
+      ["longHardsolo"],
+      ["longHardSolo test"]]
+  
+    longHardCrew = [
+      ["longHardCrew"],
+      ["longHardCrew test"]]
+  
+    if(crewSize === "option-1") {
+      var choice = Math.floor(Math.random() * longHardSolo.length);
+    document.getElementById("task-text").innerHTML = longHardSolo[choice][0];
+      }
+      else{
+          var choice = Math.floor(Math.random() * longHardCrew.length);
+          document.getElementById("task-text").innerHTML = longHardCrew[choice][0];
+      }
+      document.getElementById('task-text').scrollIntoView()     
+    }
+  
+  
+  function PVP(crewSize) {
+    pvpSolo = [
+      ["pvpSolo"],
+      ["pvpSolo test"]]
+  
+    pvpCrew = [
+      ["pvpCrew"],
+      ["pvpCrew test"]]
+  
+    if(crewSize === "option-1") {
+      var choice = Math.floor(Math.random() * pvpSolo.length);
+    document.getElementById("task-text").innerHTML = pvpSolo[choice][0];
+      }
+      else{
+          var choice = Math.floor(Math.random() * pvpCrew.length);
+          document.getElementById("task-text").innerHTML = pvpCrew[choice][0];
+      }
+      document.getElementById('task-text').scrollIntoView() 
+  }
+  
+  
   
   
