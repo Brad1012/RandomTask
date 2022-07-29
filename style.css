@@ -60,6 +60,8 @@ h1 {
  font-size: 1.5rem;
 }
 
+/*crew size radio*/
+
 .wrapper {
   display: inline-flex;
   height: 50px;
@@ -139,6 +141,8 @@ input[type="radio"]{
   font-size: 2.5rem;
 }
 
+/*parameters radio*/
+
 .parameters {
   display: inline-flex;
   height: 50px;
@@ -199,6 +203,7 @@ input[name=type] {
   justify-content: space-evenly;
 }
 
+/*search button*/
 .generate {
   background: #d4c8ad;
   font-family: 'Rubik';
@@ -238,6 +243,8 @@ header {
   border-radius: 15px;
   overflow: hidden;
 }
+
+/*media changes*/
 
 @media screen and (max-width: 800px) {
   .wrapper {
