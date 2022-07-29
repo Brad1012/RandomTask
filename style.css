@@ -190,13 +190,6 @@ input[type="radio"]{
   color: #d4c8ad;
 }
 
-
-
-input[name=type]:checked + label>img {
-  border: 1px solid #678667;
-  box-shadow: 0 0 10px 5px #678667;
-}
-
 input[name=type] {
   cursor:pointer;
   align-items: center;
