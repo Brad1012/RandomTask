@@ -29,7 +29,7 @@ body {
 .header {
   min-height: 200px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
   padding: 5px;
 }
 
@@ -60,6 +60,9 @@ h1 {
  font-size: 1.5rem;
 }
 
+.p2 {
+  font-size: 2.5rem;
+}
 /*crew size radio*/
 
 .wrapper {
@@ -190,12 +193,6 @@ input[type="radio"]{
   color: #d4c8ad;
 }
 
-input[name=type] {
-  cursor:pointer;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 /*search button*/
 .generate {
   background: #d4c8ad;
@@ -240,34 +237,64 @@ header {
 /*media changes*/
 
 @media screen and (max-width: 800px) {
+
+  .parameters .choice {
+    width: 1.75rem;
+    height: 2rem;
+    margin: 0 1px;
+  }
+
+  .header {
+    min-height: auto;
+  }
+  
   .wrapper {
     height: 40px;
-    width: 300px;
+    width: 200px;
+  }
+
+  
+  .h2 {
+    font-size: 1.25rem;
+  }
+
+  .h3 {
+    font-size: 1.25rem;
   }
   
   #task-text {
     font-size: 1.5rem;
   }
 
-  .generate:hover {
-    transform: scale(1);
-    transition: 0s;
-  }
-
   .header-title {
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
   }
   
   .header-desc {
-  font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .main {
     width: 80%;
-    height: 60%;
+    height: auto;
     }
-  }
 
+  .main h1{
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    }
+
+  .p1 {
+    font-size: 0.75rem;
+    }
+
+header {
+  height: 2rem;
+  font-size: 0.75rem;
+  }
+}
 @media screen and (max-height: 1200px) {
   .main {
    height: 70%
