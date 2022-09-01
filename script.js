@@ -117,6 +117,11 @@ function GetValue() {
   function PVP(crewSize) {
     pvpSolo = [
       ["pvpSolo"],
+      ["Get 3 kills with the Flinklock."],
+      ["Get 3 kills with the Sword."],
+      ["Get 3 kills with the Blunderbuss."],
+      ["Get 3 kills with the Eye of Reach."],
+      ["Get a kill with a Blunderbomb"],
       ["pvpSolo test"]]
   
     pvpCrew = [
