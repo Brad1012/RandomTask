@@ -117,6 +117,7 @@ function GetValue() {
   function PVP(crewSize) {
     pvpSolo = [
       ["pvpSolo"],
+      ["Throw vomit on another player."],
       ["Get 3 kills with the Flinklock."],
       ["Get 3 kills with the Sword."],
       ["Get 3 kills with the Blunderbuss."],
@@ -126,6 +127,7 @@ function GetValue() {
   
     pvpCrew = [
       ["pvpCrew"],
+      ["Sink a ship while none of your crew are aboard it"},
       ["pvpCrew test"]]
   
     if(crewSize === "option-1") {
