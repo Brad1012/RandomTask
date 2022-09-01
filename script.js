@@ -127,7 +127,8 @@ function GetValue() {
   
     pvpCrew = [
       ["pvpCrew"],
-      ["Sink a ship while none of your crew are aboard it"},
+      ["Sink a ship while none of your crew are aboard it"],
+      ["Knock down all masts of an enemy ship"],
       ["pvpCrew test"]]
   
     if(crewSize === "option-1") {
