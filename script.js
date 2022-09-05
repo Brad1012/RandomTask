@@ -19,7 +19,6 @@ function GetValue() {
       ["You can only walk side to side for 30 seconds, like a crab!"],
       ["Take a nap on your/someones boat for 10 seconds. You've earned it."],
       ["You've had a long day, reward yourself and down a nice grog!"],
-      ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
       ["Sword Lord! You can only move by using sword hops for 30 seconds."],
       ["Is that a ship? Climb the crows nest of the nearest ship and ring the bell."],
       ["Make a nice drawing on the map."],
@@ -56,10 +55,12 @@ function GetValue() {
   function shortHard(crewSize) {
     shortHardSolo = [
       ["shortHardSolo"],
+      ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
       ["shortHardSolo test"]]
   
     shortHardCrew = [
       ["shortHardCrew"],
+      ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
       ["shortHardCrew test"]]
   
     if(crewSize === "option-1") {
