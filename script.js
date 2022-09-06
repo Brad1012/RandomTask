@@ -135,7 +135,8 @@ function GetValue() {
       ["pvpCrew"],
       ["pvpCrew test"],
       ["Sink a ship while none of your crew are aboard it"],
-      ["Knock down all masts of an enemy ship"]
+      ["Knock down all masts of an enemy ship"],
+      ["Kamikaze! Fill your boat with kegs and ram a player ship"]
     ]
   
     if(crewSize === "option-1") {
@@ -148,8 +149,3 @@ function GetValue() {
       }
       document.getElementById('task-text').scrollIntoView() 
   }
-  
-  
-  
-  
-  
