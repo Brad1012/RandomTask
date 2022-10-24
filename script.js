@@ -130,6 +130,7 @@ function GetValue() {
       ["Get 3 kills with the Blunderbuss."],
       ["Get 3 kills with the Eye of Reach."],
       ["Get a kill with a Blunderbomb"],
+      ["Anchor a players boat"],
       ["pvpSolo test"]]
   
     pvpCrew = [
