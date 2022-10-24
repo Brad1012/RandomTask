@@ -107,7 +107,8 @@ function GetValue() {
   
     longHardCrew = [
       ["longHardCrew"],
-      ["longHardCrew test"]]
+      ["longHardCrew test"],
+      ["Complete the next/current world event."]]
   
     if(crewSize === "option-1") {
       var choice = Math.floor(Math.random() * longHardSolo.length);
