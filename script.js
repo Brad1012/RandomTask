@@ -138,7 +138,7 @@ function GetValue() {
     pvpCrew = [
       ["pvpCrew"],
       ["pvpCrew test"],
-      ["Sink a ship while none of your crew are aboard it"],
+      ["Sink a ship whilst none of your crew are aboard it"],
       ["Knock down all masts of an enemy ship"],
       ["Kamikaze! Fill your boat with kegs and ram a player ship"],
       ["Use a rowboat to board an enemy ship"]]
