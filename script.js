@@ -61,6 +61,7 @@ function GetValue() {
     shortHardCrew = [
       ["shortHardCrew"],
       ["Poseidon is getting annoyed, calm him down by throwing 1 piece of loot into the sea."],
+      ["Hot mics! All crew members must commentate their actions for 30 seconds on ingame chat."],
       ["shortHardCrew test"]]
   
     if(crewSize === "option-1") {
