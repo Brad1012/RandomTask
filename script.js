@@ -88,6 +88,7 @@ function GetValue() {
       ["complete any voyage"],
       ["Dam Spaniards are piping up again! Go clear a Sea Fort."],
       ["Get a Gunpowder Barrel and put it in your crows nest, you like danger!"],
+      ["Time for a toast! Everyone in the crew must down a crisp grog!"],
       ["longEasyCrew test"]]
   
     if(crewSize === "option-1") {
