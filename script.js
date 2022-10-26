@@ -80,6 +80,7 @@ function GetValue() {
       ["Complete any voyage"],
       ["Dam Spaniards are piping up again! Go clear a Sea Fort."],
       ["Get a Gunpowder Barrel and put it in your crows nest, you like danger!"],
+      ["You must talk like a pirate until next time you die."],
       ["longEasySolo test"]]
   
     longEasyCrew = [
