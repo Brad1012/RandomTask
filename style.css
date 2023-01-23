@@ -26,18 +26,18 @@ body {
   overflow-x: hidden;
 }
 
-.header {
+.head {
   min-height: 200px;
   width: 100%;
   margin-top: 40px;
   padding: 5px;
 }
 
-.header-title {
+.head-title {
   font-family: 'Windlass';
   font-size: 5rem;
 }
-.header-desc {
+.head-desc {
   font-family: 'windlass';
   font-size: 2rem;
   ;
@@ -227,12 +227,28 @@ header {
   height: 1.5rem;
   font-size: 1rem;
   background-color: #d4c8ad;
-  width: 80%;
+  width: 60%;
   margin: auto;
+  margin-top: 10px;
   border: 2px solid black;
   border-radius: 15px;
   overflow: hidden;
 }
+
+.hourglass {
+  background-color: #d4c8ad;
+  width: 60%;
+  height: 5rem;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-top: 2.5rem;
+}
+
+
+
 
 /*media changes*/
 
