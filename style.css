@@ -258,9 +258,8 @@ header {
 
 /*  colour change not fitting whole space,
     transform timer left to right colour change*/
-.hourglass a:hover {
-  background-color: red;
-  color: #d4c8ad;
+.hourglass :hover {
+  background-color: rgb(87, 31, 31);
 }
 
 /*media changes*/
