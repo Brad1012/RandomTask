@@ -142,7 +142,9 @@ function GetValue() {
       ["Sink a ship whilst none of your crew are aboard it"],
       ["Knock down all masts of an enemy ship"],
       ["Kamikaze! Fill your boat with kegs and ram a player ship"],
-      ["Use a rowboat to board an enemy ship"]]
+      ["Use a rowboat to board an enemy ship"],
+      ["Ram strat, best strat, ram a player ship"]
+    ]
   
     if(crewSize === "option-1") {
       var choice = Math.floor(Math.random() * pvpSolo.length);
