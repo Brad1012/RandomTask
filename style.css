@@ -245,22 +245,13 @@ header {
   border: 2px solid black;
   border-radius: 15px;
   overflow: hidden;
-  padding-top: 2.5rem;
+  padding-top: 1.5rem;
 }
 
 .hourglass a {
-  display: inline-block;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #678667;
-  margin-top: -30px;
-}
-
-/*  colour change not fitting whole space,
-    transform timer left to right colour change*/
-.hourglass :hover {
-  color: rgb(87, 31, 31);
-  background-color: #99abb1;
 }
 
 /*media changes*/
