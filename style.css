@@ -231,8 +231,13 @@ header {
   margin: auto;
   margin-top: 10px;
   border: 2px solid black;
-  border-radius: 15px;
+  border-radius: 10px;
   overflow: hidden;
+}
+
+header a {
+  font-weight: 600;
+  color: #678667;
 }
 
 .hourglass {
